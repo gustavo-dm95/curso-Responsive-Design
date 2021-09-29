@@ -111,3 +111,40 @@ main {
     max-width: 900px;
     margin: 0 auto;
 }
+
+.main-exchange .backroundImg {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background: url('./assets/img/bitcoin.svg') center/contain no-repeat;
+}
+
+.main-exchange h2 {
+    margin-bottom: 30px;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-weight: bold;
+    color: var(--black);
+}
+
+.main-exchange p {
+    margin-bottom: 30px;
+    line-height: 1.6rem;
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: #757575;
+}
+
+.main-tables {
+    margin: 50px 20%;
+}
+
+.main-tables h6 {
+    font-weight: 500;
+    font-size: 1.8rem;
+    text-align: start;
+    letter-spacing: 0.3px;
+    margin-bottom: 10px;
+    color: var(--bitcoin-orange);
+}
