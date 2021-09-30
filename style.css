@@ -241,3 +241,62 @@ main {
     height: 15px;
     margin-left: 10px;
 }
+
+.main-benefits {
+    width: 100%;
+    height: auto;
+    background-color: #201E1C;
+}
+
+.main-benefits-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main-benefits-container h2 {
+    margin-top: 50px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.main-benefits-container p {
+    margin-top: 10px;
+    font-size: 1.4rem;
+    font-weight: normal;
+    color: #808080;
+    text-align: center;
+}
+
+.main-benefits-container article p {
+    text-align: start;
+}
+
+.main-benefits-container h6 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: #FFFFFF;
+}
+
+.main-benefits-container article {
+    width: 288px;
+    height: 152px;
+    background: #282623;
+    margin: 16px auto;
+    padding: 16px 20px 22px 16px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.main-benefits-container .benefits-img {
+    margin: 0 0 5px 2px;
+}
+
+.main-benefits-container .main-benefits-img {
+    position: relative;
+    top: -12px;
+    left: calc(50% - 20.5px);
+}
