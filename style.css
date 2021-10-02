@@ -283,7 +283,8 @@ main {
 }
 
 .main-benefits-container article {
-    width: 288px;
+    min-width: 288px;
+    max-width: 400px;
     height: 152px;
     background: #282623;
     margin: 16px auto;
@@ -303,9 +304,9 @@ main {
 }
 
 .main-bitcoin-baby {
-    margin: 0 auto;
+    min-width: 320px;
     width: 100%;
-    height: 387px;
+    height: 60vh;
     text-align: center;
     background: url(./assets/img/bitcoinbaby2x.png) center no-repeat;
     background-size: cover;
