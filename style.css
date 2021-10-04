@@ -319,3 +319,124 @@ main {
     position: relative;
     top: 64px;
 }
+
+.main-plan {
+    margin: 0 auto;
+    width: 100%;
+    min-width: 320px;
+    max-width: 400px;
+    height: auto;
+    padding: 64px 15px;
+}
+
+.main-plan-container {
+    text-align: center;
+}
+
+.main-plan-container .main-plan-title {
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+}
+
+.main-plan-container > p {
+    margin-top: 24px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #757575;
+}
+
+.main-plan-cards {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.main-plan-cards article {
+    padding: 31px 16px 24px;
+    position: relative;
+    width: 190px;
+    height: 247px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.main-plan-cards article > span {
+    background-color: var(--bitcoin-orange);
+    color: var(--just-white);
+    display: inline-block;
+    position: absolute;
+    top: -15px;
+    left: calc(50% - 52.5px);
+    width: 105px;
+    height: 31px;
+    font-size: 1.2rem;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    line-height: 14.52px;
+    padding: 8px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.main-plan-cards article > h6 {
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: black;
+}
+
+.main-plan-cards .main-plan-price {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.main-plan-cards .main-plan-price .dollar-icon {
+    font-size: 1.2rem;
+    font-weight: normal;
+    line-height: 14.52px;
+    font-family: "Inter", sans-serif;
+}
+
+.main-plan-cards .main-plan-price .price {
+    font-size: 5.2rem;
+    font-weight: 900;
+    font-family: "Inter", sans-serif;
+    line-height: 62.93px;
+    letter-spacing: -5px;
+}
+
+.main-plan-cards article > p {
+    color: #757575;
+    font-size: 1.2rem;
+    font-weight: normal;
+    line-height: 14.52px;
+    margin-top: 16px;
+}
+
+.main-plan-cards article button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #FAF8F7;
+    border: solid 2px #F7931A;
+    font-size: 14px;
+    border-radius: 4px;
+    width: 151px;
+    height: 48px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+.main-plan-cards article .right-arrow {
+    display: inline-block;
+    background-image: url(./assets/icons/orange-right-arrow.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 24px;
+    height: 24px;
+}
