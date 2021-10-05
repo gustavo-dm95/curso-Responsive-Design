@@ -19,6 +19,7 @@
  html {
     font-size: 62.5%;
     font-family: "DM Sans", sans-serif;
+    scroll-behavior: smooth;
  }
 
 header {
@@ -371,7 +372,7 @@ main {
     left: calc(50% - 52.5px);
     width: 105px;
     height: 31px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: "Inter", sans-serif;
     font-weight: bold;
     line-height: 14.52px;
@@ -390,6 +391,7 @@ main {
 .main-plan-cards .main-plan-price {
     display: flex;
     justify-content: center;
+    align-items: stretch;
     margin-top: 16px;
 }
 
@@ -398,6 +400,7 @@ main {
     font-weight: normal;
     line-height: 14.52px;
     font-family: "Inter", sans-serif;
+    vertical-align: text-top;
 }
 
 .main-plan-cards .main-plan-price .price {
@@ -433,7 +436,7 @@ main {
 
 .main-plan-cards article .right-arrow {
     display: inline-block;
-    background-image: url(./assets/icons/orange-right-arrow.svg);
+    background-image: url('./assets/icons/orange-right-arrow.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
